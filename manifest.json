@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Assista Translator",
+  "description": "This extension will open a Assista translator",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon-assista.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
